@@ -1,0 +1,8 @@
+# SLAM-Hive dataset playback (see slam_hive_web/docs/rosbag_compatibility.md).
+# Generated from the legacy rosbag_play.py (family: plain)
+# and checked against it.
+version: 1
+bags: {rgbd_dataset_freiburg2_rpy: rgbd_dataset_freiburg2_rpy.bag}
+play:
+  bags: [rgbd_dataset_freiburg2_rpy]
+  rate: 1.0

@@ -1,0 +1,13 @@
+# SLAM-Hive dataset playback (see slam_hive_web/docs/rosbag_compatibility.md).
+# Generated from the legacy rosbag_play.py (family: plain+play_demo_mapping)
+# and checked against it.
+version: 1
+bags: {demo_mapping_bag: demo_mapping_bag}
+play:
+  bags: [demo_mapping_bag]
+  rate: 1.0
+switches:
+  play_demo_mapping: {default: true}
+rules:
+- must_be_true: [play_demo_mapping]
+  message: play_demo_mapping=false leaves no bag to play
